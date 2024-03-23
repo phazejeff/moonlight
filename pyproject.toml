@@ -17,7 +17,7 @@ include = [
 python = ">=3.10,<4"
 # https://github.com/secdev/scapy/issues/3246 fix isn't on pypi
 printrospector = {git = "https://gitlab.com/vale_/printrospector", rev = "main"}
-kobold-py = {git = "https://github.com/vbe0201/kobold", rev = "main", subdirectory = "py"}
+kobold = {git = "https://github.com/phazejeff/kobold", rev = "main", subdirectory = "src/kobold-py"}
 click = "^8.0.4"
 colorama = "^0.4.4"
 scapy = "^2.5.0"

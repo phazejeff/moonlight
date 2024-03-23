@@ -12,7 +12,7 @@ import click
 from moonlight.net import PacketReader, Message, KeepAliveMessage
 from moonlight.util import SerdeJSONEncoder, bytes_to_pretty_str
 
-from moonlight.util.click import message_def_dir_arg, typedef_option
+from moonlight.util.click_util import message_def_dir_arg, typedef_option
 
 logger = logging.getLogger(__name__)
 

@@ -14,7 +14,7 @@ def bytes_to_pretty_str(bites: bytes) -> str:
     Returns:
         str: pretty hexadecimal bytes
     """
-    return bites.hex(" ").upper() if bites else ""
+    return bites.hex(" ").upper() if isinstance(bites, bytes) else ""
 
 
 # def try_to(obj: Any, )
