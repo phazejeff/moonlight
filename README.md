@@ -1,3 +1,15 @@
+# NOTE:
+The original moonlight project seems to have been abandoned in a broken state. This just adds some fixes so that it at least works. It does not reproduce the raw bytes or show the sender, but everything else works, which is all we need.
+
+To install, clone the repo and use `pip install -e .`, then you can just use `moonlight` in cmd
+Example command to decode a wireshark packet capture, like one from wizproxy:
+```
+moonlight decode pcap messages home.pcapng home_cleaned.json
+``` 
+where `messages` is a folder containing all messages XML files in Root.wad
+
+Below this line is the original README
+
 # Moonlight
 Howl and release Wizard101 traffic's true form
 
